@@ -1,0 +1,9 @@
+{
+  "name": "CivicShield AI",
+  "description": "AI-powered road safety and civic infrastructure platform featuring automated road hazard scanning, driver voice guidance, physical dimension estimation, and municipal authority incident control.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

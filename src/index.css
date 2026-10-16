@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Leaflet Dark Mode Pin & Container Adjustments */
+.leaflet-container {
+  background: #070B14 !important;
+  font-family: inherit;
+}
+
+.custom-hazard-pin {
+  background: transparent;
+  border: none;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070B14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A2640;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2684FF;
+}
